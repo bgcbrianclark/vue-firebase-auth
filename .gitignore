@@ -2,6 +2,10 @@
 node_modules
 /dist
 
+# config files
+fbConfig.js
+firebase.json
+
 
 # local env files
 .env.local
