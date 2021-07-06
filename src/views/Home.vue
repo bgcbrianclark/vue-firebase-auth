@@ -6,20 +6,18 @@
 
 <script>
 // @ is an alias to /src
-import { db } from '@/db'
+import { db } from "@/db";
 
 export default {
   name: "Home",
-  components: {
-    
-  },
+  components: {},
   data() {
     return {
       documents: [],
-    }
+    };
   },
   firestore: {
-    documents: db.collection('documents')
-  }
+    documents: db.collection("documents"),
+  },
 };
 </script>
