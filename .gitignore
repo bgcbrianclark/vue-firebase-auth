@@ -4,7 +4,10 @@ node_modules
 
 # config files
 fbConfig.js
-firebase.json
+firebase*
+firestore*
+storage.rules
+.firebaserc
 
 
 # local env files
