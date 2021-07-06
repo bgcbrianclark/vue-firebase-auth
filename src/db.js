@@ -5,7 +5,7 @@ import 'firebase/firestore'
 import store from './store'
 
 // Create a firebase config file
-import fbConfig from './fbConfig'
+import { fbConfig } from "./fbConfig";
 
 // Get a Firestore instance
 export const db = firebase
